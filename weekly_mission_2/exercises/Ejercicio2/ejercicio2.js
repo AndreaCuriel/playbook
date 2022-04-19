@@ -56,3 +56,18 @@ explorers.forEach((names) => console.log(names.name));
 
 //show stack for each explorer (forEach)
 explorers.forEach((stacks) => console.log(stacks.stack));
+
+//create a new stack list for each explorer (map)
+const listStack = explorers.map((list) => list.stack);
+console.log("NEW STACK LIST");
+console.log(listStack);
+
+//create a mew list where it has only js like stack (filter)
+const listJsStack = explorers.filter((list) => list.stack.includes("js"));
+console.log("FILTER ONLY JS STACK");
+console.log(listJsStack);
+
+//first explorer that they are from CDMX with FIND
+const firstExplorer = explorers.find((first) => first.city == "CDMX");
+console.log("FIRST EXPLORER IS FROM CDMX");
+console.log(firstExplorer);
