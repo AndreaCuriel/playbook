@@ -71,3 +71,11 @@ console.log(listJsStack);
 const firstExplorer = explorers.find((first) => first.city == "CDMX");
 console.log("FIRST EXPLORER IS FROM CDMX");
 console.log(firstExplorer);
+
+//obtain the sum of the all exercises completed with REDUCE
+const sumExercises = explorers.reduce(
+  (acc, exe) => acc + exe.exercises_completed,
+  0
+);
+console.log("SUM ALL EXERCISES COMPLETED ");
+console.log(sumExercises);
