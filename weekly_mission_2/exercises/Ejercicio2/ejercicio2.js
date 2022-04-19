@@ -68,7 +68,7 @@ console.log("FILTER ONLY JS STACK");
 console.log(listJsStack);
 
 //first explorer that they are from CDMX with FIND
-const firstExplorer = explorers.find((first) => first.city == "CDMX");
+const firstExplorer = explorers.find((first) => first.city === "CDMX");
 console.log("FIRST EXPLORER IS FROM CDMX");
 console.log(firstExplorer);
 
@@ -79,3 +79,10 @@ const sumExercises = explorers.reduce(
 );
 console.log("SUM ALL EXERCISES COMPLETED ");
 console.log(sumExercises);
+
+//VALIDATE IF SOME EXPLORER HAS exercisesFinished IN frontend LIKE true (USE some)
+const someExplorer = explorers.some(
+  (finish) => finish.missions.frontend.exercisesFinished === true
+);
+console.log("SOME EXPLORER HAS EXERCISES FINISHED IN FRONTEDN MISSION");
+console.log(someExplorer);
