@@ -51,3 +51,8 @@ const explorers = [
     },
   },
 ];
+//show name for each explorer (forEach)
+explorers.forEach((names) => console.log(names.name));
+
+//show stack for each explorer (forEach)
+explorers.forEach((stacks) => console.log(stacks.stack));
