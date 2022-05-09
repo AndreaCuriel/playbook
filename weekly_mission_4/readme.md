@@ -7,5 +7,6 @@ Proyectos desarrollados en la semana 4:
 |`Refactoring - API - Nuevo Feature`|1, 2, 3|[Link al repo](https://github.com/AndreaCuriel/refactoring_node)|
 |`Contribution Open Source`|4|[Link al repo](https://github.com/AndreaCuriel/fizzbuzz)|
 |`Code Challenge`|5|[Link al repo](https://github.com/AndreaCuriel/Visual_Thinking_API)|
+|`Trello`|7|[Link al repo](https://github.com/AndreaCuriel/Config_externalizada_Trello)    [Fork](https://github.com/AndreaCuriel/trello)|
 
 
